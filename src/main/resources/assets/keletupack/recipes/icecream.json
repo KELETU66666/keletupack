@@ -1,0 +1,20 @@
+{
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "C",
+    "W"
+  ],
+  "key": {
+    "W": {
+      "type": "forge:ore_dict",
+      "ore": "cropWheat"
+    },
+    "C": {
+      "item": "keletupack:chocolate_bucket"
+    }
+  },
+  "result": {
+    "item": "keletupack:icecream",
+    "data": 0
+  }
+}

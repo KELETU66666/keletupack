@@ -1,0 +1,11 @@
+{
+  "type": "forge:ore_shapeless",
+  "ingredients": [
+    {
+      "item": "keletupack:chocolate_bucket"
+    }
+  ],
+  "result": {
+    "item": "keletupack:chocolate_ingot"
+  }
+}

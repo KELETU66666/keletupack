@@ -1,0 +1,17 @@
+{
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "CCC",
+    "CCC",
+    "CCC"
+  ],
+  "key": {
+    "C": {
+      "item": "keletupack:chocolate_ingot"
+    }
+  },
+  "result": {
+    "item": "keletupack:chocolate_block",
+    "data": 0
+  }
+}

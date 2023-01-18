@@ -119,6 +119,7 @@ dependencies {
     implementation 'curse.maven:thaumic-isorropia-419896:3663194'
     implementation 'curse.maven:projecte-226410:2702991'
     implementation 'curse.maven:familiar-fauna-289347:2644656'
+    implementation 'curse.maven:thaumic-periphery-293505:2766866'
 }
 
 // Example for how to get properties into the manifest for reading by the runtime..

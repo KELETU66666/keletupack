@@ -2,6 +2,7 @@ package keletu.keletupack.proxy;
 
 import keletu.keletupack.util.handler.EventHandler;
 import net.minecraft.item.Item;
+import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
 public class CommonProxy {
@@ -11,6 +12,11 @@ public class CommonProxy {
 
 
     public void preInit( FMLPreInitializationEvent event )
+    {
+        EventHandler.registerEvents();
+    }
+
+    public void init( FMLInitializationEvent event )
     {
         EventHandler.registerEvents();
     }

@@ -59,8 +59,9 @@ public class keletupack {
     @Mod.EventHandler
     public void init(FMLInitializationEvent event) {
         InitRecipes.initRecipes();
+        proxy.init(event);
         GameRegistry.addSmelting(ModItems.Gold_Egg,new ItemStack(net.minecraft.init.Items.GOLD_NUGGET),0.15f);
-    proxy.registerDisplayInformationInit();
+        proxy.registerDisplayInformationInit();
     }
 
     /**
